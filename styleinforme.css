@@ -1,0 +1,304 @@
+
+/* animaciones informes */
+
+
+.li-informes {
+    perspective: 400px;
+  }
+  
+  .in-top .info {
+    transform-origin: 50% 0%;
+    -webkit-animation: in-top 300ms ease 0ms 1 forwards;
+            animation: in-top 300ms ease 0ms 1 forwards;
+  }
+  
+  .in-right .info {
+    transform-origin: 100% 0%;
+    -webkit-animation: in-right 300ms ease 0ms 1 forwards;
+            animation: in-right 300ms ease 0ms 1 forwards;
+  }
+  
+  .in-bottom .info {
+    transform-origin: 50% 100%;
+    -webkit-animation: in-bottom 300ms ease 0ms 1 forwards;
+            animation: in-bottom 300ms ease 0ms 1 forwards;
+  }
+  
+  .in-left .info {
+    transform-origin: 0% 0%;
+    -webkit-animation: in-left 300ms ease 0ms 1 forwards;
+            animation: in-left 300ms ease 0ms 1 forwards;
+  }
+  
+  .out-top .info {
+    transform-origin: 50% 0%;
+    -webkit-animation: out-top 300ms ease 0ms 1 forwards;
+            animation: out-top 300ms ease 0ms 1 forwards;
+  }
+  
+  .out-right .info {
+    transform-origin: 100% 50%;
+    -webkit-animation: out-right 300ms ease 0ms 1 forwards;
+            animation: out-right 300ms ease 0ms 1 forwards;
+  }
+  
+  .out-bottom .info {
+    transform-origin: 50% 100%;
+    -webkit-animation: out-bottom 300ms ease 0ms 1 forwards;
+            animation: out-bottom 300ms ease 0ms 1 forwards;
+  }
+  
+  .out-left .info {
+    transform-origin: 0% 0%;
+    -webkit-animation: out-left 300ms ease 0ms 1 forwards;
+            animation: out-left 300ms ease 0ms 1 forwards;
+  }
+  
+  @-webkit-keyframes in-top {
+    from {
+      transform: rotate3d(-1, 0, 0, 90deg);
+    }
+    to {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+  }
+  
+  @keyframes in-top {
+    from {
+      transform: rotate3d(-1, 0, 0, 90deg);
+    }
+    to {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+  }
+  @-webkit-keyframes in-right {
+    from {
+      transform: rotate3d(0, -1, 0, 90deg);
+    }
+    to {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+  }
+  @keyframes in-right {
+    from {
+      transform: rotate3d(0, -1, 0, 90deg);
+    }
+    to {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+  }
+  @-webkit-keyframes in-bottom {
+    from {
+      transform: rotate3d(1, 0, 0, 90deg);
+    }
+    to {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+  }
+  @keyframes in-bottom {
+    from {
+      transform: rotate3d(1, 0, 0, 90deg);
+    }
+    to {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+  }
+  @-webkit-keyframes in-left {
+    from {
+      transform: rotate3d(0, 1, 0, 90deg);
+    }
+    to {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+  }
+  @keyframes in-left {
+    from {
+      transform: rotate3d(0, 1, 0, 90deg);
+    }
+    to {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+  }
+  @-webkit-keyframes out-top {
+    from {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+    to {
+      transform: rotate3d(-1, 0, 0, 104deg);
+    }
+  }
+  @keyframes out-top {
+    from {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+    to {
+      transform: rotate3d(-1, 0, 0, 104deg);
+    }
+  }
+  @-webkit-keyframes out-right {
+    from {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+    to {
+      transform: rotate3d(0, -1, 0, 104deg);
+    }
+  }
+  @keyframes out-right {
+    from {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+    to {
+      transform: rotate3d(0, -1, 0, 104deg);
+    }
+  }
+  @-webkit-keyframes out-bottom {
+    from {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+    to {
+      transform: rotate3d(1, 0, 0, 104deg);
+    }
+  }
+  @keyframes out-bottom {
+    from {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+    to {
+      transform: rotate3d(1, 0, 0, 104deg);
+    }
+  }
+  @-webkit-keyframes out-left {
+    from {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+    to {
+      transform: rotate3d(0, 1, 0, 104deg);
+    }
+  }
+  @keyframes out-left {
+    from {
+      transform: rotate3d(0, 0, 0, 0deg);
+    }
+    to {
+      transform: rotate3d(0, 1, 0, 104deg);
+    }
+  }
+  
+  .ul-informes {
+    padding: 0;
+    margin: auto 10% 0;
+  }
+  
+  .container-box-inf {
+    margin: 400px 10% 0 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+  }
+  
+  .ul-informes:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .li-informes a img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+  
+  }
+  
+  .li-informes a {
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+  }
+  
+  .li-informes {    
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    padding: 0;
+    list-style: none;
+  }
+  .li-informes a {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .li-informes h3 {
+    margin: 0;  
+    font-size: 16px;
+    color: #000;
+  }
+  .li-informes p {
+    font-size: 12px;
+    line-height: 1.5;
+    color: black;
+  }
+  
+  #informe1 {
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .info {
+    transform: rotate3d(1, 0, 0, 90deg);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    pointer-events: none;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(3px);
+  }
+  
+  .dialog-iframe  {
+    display: absolute;
+    align-items: center;
+    width: calc(70%);
+    position: fixed;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    margin: 100px auto;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .fonts {
+    margin: 70px auto;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+  
+  .tabla-noticias {
+    max-width: 790px;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  
+  .p-medios {
+    color: #111111;
+      font-style: italic;
+      font-size: 1.3rem;
+      margin-top: 35px;    
+      max-width: 900px;
+    }

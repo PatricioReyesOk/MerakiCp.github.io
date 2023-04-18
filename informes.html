@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleinforme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Nuestros trabajos</title>
+    <link rel="shortcut icon" href="IMG/head/logo-head.png">
+</head>
+
+<body>
+    <div id="particles-js">
+    </div>
+    <header id="header">
+        <div class="navbar">
+                <a href="#Inicio"><img src="./img/main/LOGO.svg" alt="#" class="logo-original-navbar"></a>
+                <ul class="links">
+                    <li><a class="link-header" href="./index.html">INICIO</a></li>
+                    <li><a class="link-header" href="#QUE-HACEMOS">¿QUE HACEMOS?</a></li>
+                    <li><a class="link-header" href="./NUESTRO-TRABAJO.html">NUESTRO TRABAJO</a></li>
+                    <li><a class="link-header" href="./NEWSLETTER.html">NEWSLETTER</a></li>
+                </ul>
+
+                <button id="btn-abrir-modal" class="action-btn">CONTACTANOS</button>
+                
+                <section class="modal-section">
+
+                    <dialog id="modal">
+                        <div class="button-form"><button id="btn-cerrar-modal"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                            <div class="form-contacto">
+                                <h1 class="h1-form-contacto"><hr class="linef">CONTACTANOS<hr class="linef"></h1>
+                                <p class="p-form-contacto">Complete los campos y nos pondremos en contacto con usted a la brevedad</p>
+                                    <form action="get" class="campos">
+                                        
+                                        <div class="row input-container">
+                                            <div class="col-xs-12">
+                                                <div class="styled-input wide">
+                                                    <input type="text" required />
+                                                    <label>Nombre</label> 
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-12">
+                                                <div class="styled-input">
+                                                    <input type="text" required />
+                                                    <label>Email</label> 
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-12">
+                                                <div class="styled-input" style="float:right;">
+                                                    <input type="text" required />
+                                                    <label>Numero de telefono</label> 
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <div class="styled-input wide">
+                                                    <textarea required></textarea>
+                                                    <label>Mensaje</label>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="submit-form-contacto">Enviar</button>
+                                    </div>
+                              </form>
+                            </div>
+                    </dialog>
+
+                </section>
+        </div>
+    </header>
+    <main>
+       
+        <div class="box">
+            <div class="container">
+
+                <hr><h2 class="h2-servicios">NUESTRO ULTIMO INFORME</h2><hr> <br>
+                
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                      <img src="IMG/trabajo/ultima encuesta/1.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img src="IMG/trabajo/ultima encuesta/2.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img src="IMG/trabajo/ultima encuesta/3.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img src="IMG/trabajo/ultima encuesta/4.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img src="IMG/trabajo/ultima encuesta/5.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img src="IMG/trabajo/ultima encuesta/6.jpg" style="width:100%">
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img src="IMG/trabajo/ultima encuesta/7.jpg" style="width:100%">
+                    </div>
+                  
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span> 
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                  </div>
+
+
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="container">
+
+                <div class="container-box-info">
+                    <div class='container-informes'>
+                      <h2 class="h2-servicios"><hr class="linebg">Informes anteriores<hr class="linebg"></h2>
+                        <ul class="ul-informes">
+                          <li class="li-informes">
+                            <a id="informe1"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#MonitorDigital</h3>
+                                <h4>Norte Argentino</h4>
+                                <h3>16/02/2022</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe1" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe1"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/monitor-digital-norte-argentino-2022.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe2"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#MonitorDigital</h3>
+                                <h4>Renuncia Alfaro</h4>
+                                <h3>16/11/2022</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe2" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe2"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/renuncia-de-alfaro-monitor-digital-.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe3"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#MonitorDigital</h3>
+                                <h4>Elecciones Legislativas</h4>
+                                <h3>10/11/2021</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe3" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe3"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/candidatosenred-tucuman-10-21.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe4"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#MonitorDigital</h3>
+                                <h4>PASO y crisis del FdT</h4>
+                                <h3>17/09/2021</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe4" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe4"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/monitoreo-digital-af-cfk.pptx-6.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe5"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#MonitorDigital</h3>
+                                <h3>Apertura de sesiones ordinarias</h4>
+                                <h3>Marzo 2021</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe5" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe5"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/informe-de-discursos-apertura-de-sesiones-2021.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe6"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#RankingMeraki</h3>
+                                <h3>Legisladores Tucumán</h4>
+                                <h3>Septiembre 2020</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe6" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe6"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/ranking-septiembre-legisladores.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe7"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#RankingMeraki</h3>
+                                <h3>Legisaldoras de Tucumán</h4>
+                                <h3>16/02/2022</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe7" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe7"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/ranking-agosto-legisladoras-.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+                          
+                          <li class="li-informes">
+                            <a id="informe8"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#RankingMeraki</h3>
+                                <h4>Consumo de medios</h4>
+                                <h3>Junio de 2020</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe8" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe8"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/informe-consumo-de-medios-pub.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe9"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#RankingMeraki</h3>
+                                <h4>Politicos en RRSS</h4>
+                                <h3>Marzo 2020</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe9" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe9"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/informe-ranking-de-politicxs-tucumanos-marzo-2020.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe10"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#RankingMeraki</h3>
+                                <h4>Politicos en RRSS</h4>
+                                <h3>Abril 2020</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe10" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe10"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/informe-ranking-de-policc81ticos-tucumanos-abril-2020.pptx-1-1.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe11"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#RankingMeraki</h3>
+                                <h4>Politicos en RRSS</h4>
+                                <h3>Mayo 2020</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe11" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe11"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/ranking-policc81ticos-tucumanos-mayo-2020-3.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe12"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#MujeresEnCiencia</h3>
+                                <h4>Especial</h4>
+                                <h3>Febrero 2020</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe12" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe12"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/mujeres-y-ciencia.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe13"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#RankingMeraki</h3>
+                                <h4>Politicos en RRSS</h4>
+                                <h3>Enero 2020</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe13" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe13"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/informe-ranking-de-polc3adticos-tucumanos.-enero-2020.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe14"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#Especial</h3>
+                                <h4>Inicio de Sesiones</h4>
+                                <h3>Marzo 2020</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe14" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe14"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/inicio-de-sesiocc81n-tucumacc81n.pptx.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe15"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#AlbertoPresidente</h3>
+                                <h3>Asunción Alberto Fernandez</h3>
+                                <h3>Diciembre 2019</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe15" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe15"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/01-twitter-asuncic3b3n-af-copia-1.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe16"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#Twitter</h3>
+                                <h4>Retenciones</h4>
+                                <h3>Diciembre 2019</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe16" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe16"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/02-twitter-retenciones-14-12-1.pdf">
+                              </iframe>
+                          </dialog>
+                          </li>
+    
+                          <li class="li-informes">
+                            <a id="informe17"><img src="./img/informe/INFORMES.jpg" alt=""></a>
+                            <div class='info'>
+                              <div class="fonts">
+                                <h3>#Claudio Bonadio</h3>
+                        
+                                <h3>Febrero 2020</h3>
+                              </div>
+                            </div>
+                            <dialog id="iframe17" class="dialog-iframe">
+                              <div class="button-form"><button id="btn-cerrar-iframe17"><i class="fa-sharp fa-solid fa-xmark fa-lg"></i></button></div>
+                              <iframe src="./iframe/">
+                              </iframe>
+                          </dialog>
+                          </li>
+                         </ul>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </main>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fa-solid fa-caret-up"></i>
+        </div>
+    </div>
+
+    <footer>
+      <div class="box-foot">
+          <div class="logo-cpr">
+              <img src="./img/footer/LOGOFONDOBLANCO.svg" alt="#" class="img-footer">
+              <hr>
+              <p>© 2019 - 2023 MerakiCP - Todos los derechos reservados.</p>
+              <hr>
+              
+          </div>
+
+      <div class="box-foot">
+          <div>
+              <hr><h2>UBICACION</h2><hr>
+              <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1180324921456!2d-65.20926638427086!3d-26.83619789648254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0e8d0271b7%3A0x7946062ac490db30!2sGral.%20Paz%20576%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1679929619511!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>
+
+      <div class="box-foot">
+          <div>
+              <hr><h2>FEED INSTAGRAM</h2><hr>
+              <iframe class="map" src=""></iframe>
+          </div>
+      </div>
+
+      <div class="box-foot">
+          <div>
+              <hr><h2>FEED TWITTER</h2><hr>
+              <iframe class="map" src=""></iframe>
+          </div>
+      </div>
+  </div>
+
+  <hr>
+  <p>Desarrollado por <a id="link-desarrollador" class="link-header"  href="">Patricio Reyes</a></p>
+  <hr>
+
+  <div class="footoffoot">
+      <a class="link-header"  href="">Acerca de nosotros</a>
+      <a class="link-header"  href="">Politica de privacidad</a>
+      <a class="link-header"  href="" id="btn-abrir-modal">Contactanos</a>
+      <a class="link-header"  href="">info@merakicp.com</a>
+      <a class="link-header"  href="">+54 0381 413 1775</a>
+
+  </div>
+     
+</footer>
+    
+
+
+
+
+
+    <script src="./js/informes.js"></script>
+    <script src="./js/carrusel.js"></script>
+    <script src="./js/noticia.js"></script>
+    <script src="./js/gotop.js"></script>
+    <script src="./js/code.js"></script>
+    <script src="./js/particles.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/animation-qh.js"></script>
+</body>
